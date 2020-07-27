@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.footer1{
+	width: 100%;
+	height: 521px;
+}
+#footer_top{
+	width: 100%;
+	height: 418px;
+	background-image: url(../img/05_footer_bimg.png);
+	background-size: 100% 418px;
+	padding: 40px 0px 0px 0px;
+	box-sizing: border-box;
+}
+#footer_top_1{
+	position: relative;
+	width: 1200px;
+	height: 378px;
+	margin: 0px auto;
+	background-image: url(../img/05_footer_top1_bgimg.png);
+	background-size: 100% 378px;
+	z-index: 1;
+}
+#footer_bottom{
+	width: 100%;
+	height: 103px;
+	background-color: #333333;
+	border: 1px solid transparent;
+}
+#footer_bottom_mid{
+	width: 1200px;
+	height: 86px;
+	box-sizing: border-box;
+	margin: 0px auto;
+	padding: 25px 0px 15px;
+	position: relative;
+}
+#footer_bottom_mid>#footer_bottom_1{
+	height: 24px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	
+}
+#footer_bottom_mid>#footer_bottom_2{
+	height: 22px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
+#footer_bottom>#footer_bottom_mid>ul>li{
+	float: left;
+	width: auto;
+	height: 12px;
+	color: #999999;
+	list-style: none;
+	margin: 0 0 10px;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 0 8px;
+	border-left: 0.5px solid #999999;
+}
+#footer_bottom>#footer_bottom_mid>ul>li>a{
+	display: flex;
+	text-decoration: none;
+	color: #999999;
+	font-size: 12px;
+}
+/* 字体变橙色 */
+#footer_bottom>#footer_bottom_mid>ul>li>a:hover{
+	color: orange;
+}
+/* 跨境LOGO区设置 */
+#kj_logo{
+	position: absolute;
+	top: 138px;
+	left: 85px;
+	width: 189px;
+	height: 170px;
+	background-image: url(../img/05_kj_logo.png);
+}
+#kj_logo_box{
+	position: absolute;
+	top: 134px;
+	left: 210px;
+	
+}
+#kj_logo_box>div:nth-of-type(1){
+	width: 156px;
+	height: 24px;
+	font-size: 24px;
+	line-height: 24px;
+	color: white;
+}
+#kj_logo_box>div:nth-of-type(2){
+	width: 156px;
+	height: 16px;
+	margin-top: 8px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+#kj_img{
+	position: absolute;
+	top: 52px;
+	left: 480px;
+	width: 629px;
+	height: 37px;
+	background-image: url(../img/05_countryshop_bottom_1.jpg);
+}
+#kj_server_box{
+	position: absolute;
+	left: 480px;
+	top: 156px;
+}
+.kj_server_item{
+	float: left;
+	margin-right: 64px;
+
+}
+.kj_server_title{
+	margin-bottom: 30px;
+	color: white;
+	font-size: 14px;
+}
+.kj_server_item>ul>li{
+	list-style: none;
+	font-size: 12px;
+	color: white;
+	margin-bottom: 10px;
+}

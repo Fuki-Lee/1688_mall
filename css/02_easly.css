@@ -1,0 +1,139 @@
+
+         .tao03-body1{
+         	height: 3533px;
+		    text-align: center;
+		    background-image: url(https://img.alicdn.com/tfs/TB1O.sGVMHqK1RjSZJnXXbNLpXa-1920-3533.jpg);
+		    background-repeat: no-repeat;
+		    background-position: center 0;
+		    position: relative;
+         }
+         .tao03-body1>a{
+         	position: absolute;
+         	text-decoration: none;
+         	
+         }
+         .tao03-body1>.tao03-body1-a1{
+         	top: 8px;
+		    left: 400px;
+		    height: 236px;
+		    width: 734px;
+         	
+         }
+         .tao03-body1>.tao03-body1-a2{
+         	top: 658px;
+		    left: 268px;
+		    height: 289px;
+		    width: 971px;
+		   
+         }
+          .tao03-body1>.tao03-body1-a3{
+         	top: 1418px;
+		    left: 261px;
+		    height: 395px;
+		    width: 328px;
+		    z-index: 1;
+		    
+         }
+          .tao03-body1>.tao03-body1-a4{
+         	top: 1418px;
+		    left: 590px;
+		    height: 395px;
+		    width: 328px;
+		    z-index: 1;
+		    
+         }
+          .tao03-body1>.tao03-body1-a5{
+         	top: 1418px;
+		    left: 923px;
+		    height: 395px;
+		    width: 328px;
+		    z-index: 1;
+		   
+         }
+          .tao03-body1>.tao03-body1-a6{
+         	top: 3177px;
+		    left: 261px;
+		    height: 197px;
+		    width: 990px;
+		    z-index: 1;
+		     
+         }
+          .tao03-body1>.tao03-body1-a7{
+         	top: 3408px;
+		    left: 540px;
+		    height: 97px;
+		    width: 432px;
+		    z-index: 1;
+		    
+         }
+         
+         
+         	.lunbo{
+				width: 100%;
+				height:310px;
+				position: relative;
+				overflow: hidden;
+			}
+			.lunbo-show>ul{
+				position: absolute;
+				width: 500%;
+			}
+			.lunbo-show>ul>li{
+				float: left;
+				list-style: none;
+				width: 20%;
+				height: 310px;
+				position: relative;
+			}
+			.lunbo-show>ul>li>a{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				 background-repeat: no-repeat;
+			    background-position: center 0;
+			    position: absolute;
+			}
+			.lunbo-land>ul{
+				position: absolute;
+				list-style: none;
+				width: 100px;
+				height: 20px;
+				bottom: 5px;
+				left: 50%;
+				transform: translate(-50%,0);
+			}
+			.lunbo-land>ul>li{
+				float: left;
+				width: 10px;
+				height: 10px;
+			/*	border: 1px solid #000;*/
+				background-color: #333;
+				margin-right: 8px;
+				border-radius: 50%;
+			}
+			
+			/*左右按钮*/
+			.lunbo>.lunbo-left,.lunbo-right{
+				position: absolute;
+				width: 28px;
+			    height: 56px;
+			    line-height: 56px;
+				border: 1px solid #000;
+				top: 50%;
+				transform: translate(0,-50%);
+				text-align: center;
+				line-height: 60px;
+				font-size: 20px;
+				color: #FFF;
+				    background: #000;
+				   
+				    opacity: .4;
+			}
+			.lunbo>.lunbo-left{
+				left: 0px;
+				
+				
+			}
+			.lunbo>.lunbo-right{
+				right: 0px;
+			}

@@ -1,0 +1,582 @@
+*{
+				margin: 0px;
+				padding: 0px;
+				box-sizing: border-box;
+				
+			}
+			
+			header{
+				width: 100%;
+				height: 195px;
+				border-bottom: 1px solid #00ABF9;
+				
+			}
+			header>.head_list>.head_list_left>li:nth-of-type(1)::before{
+				background: none;
+			}
+			header>.head_list>.head_list_left{
+				margin-left: 20px;
+			}
+			header>.head_search{
+				margin-top: 20px;
+				
+			}
+			header>.head_list{
+				height: 64px;
+				margin-top: 0px;
+			}
+			header>.head_list>.head_list_left{
+				margin-top: 8px;
+			}
+			header>.head_list>.head_list_right{
+				margin-top: 8px;
+			}
+			header>.head_list>.head_list_right>li>a{
+				font-size: 12px;
+				font-weight: bold;
+			}
+			header>.head_list>ul>li>a:hover{
+				color: #00ABF9;
+			}
+			header>.head_list>.head_list_left>li>a{
+				font-size: 14px;
+				margin-right: 0px;
+			}
+			header>.head_search>.head_search_box>.h_s_box_left>input{
+				
+				border: 2px solid #00ABF9;
+				height: 40px;
+				
+			}
+			header>.head_search>.head_search_box>.h_s_box_left{
+				position: static;
+			}
+			header>.head_search>.head_search_box>.h_s_box_right>button {
+				width: 110px;
+				height: 40px;
+				margin-left: -5px;
+				border: 1px solid #00ABF9;
+				background-color: #00ABF9;
+				color: white;
+				outline-style: none;
+			}
+			.head_list>.slogan{
+				width: 240px;
+				height: 45px;
+				background-image: url(../img/10_03.png);
+				float: left;
+				float: left;
+				font-size: 14px;
+				color: #fff;
+				line-height: 45px;
+				text-align: center;
+				
+			}
+			.ff6600{
+				color: #FF6600;
+			}
+			.section{
+				width: 1200px;
+				margin: 0px auto;
+			}
+			.section>div:nth-of-type(1){
+				width: 1200px;
+			}
+			.search>div>ul{
+				height: 40px;
+				background: #f5f5f5;
+				border:1px solid #e8e8e8;
+			}
+			.search>div>ul>li{
+				list-style: none;
+				float: left;
+				position: relative;
+				padding: 7px 16px 7px 6px;
+				height: 38px;
+				margin-left: -1px;
+				
+				line-height: 25px;
+				font-size: 14px;
+			}
+			
+			.xuanzekuang{
+				color: #E8E8E8;
+				background:white ;
+				margin-right: 10px;
+				font-size: 16px;
+			}
+			.xuanzekuanghou{
+				color: #ff6600;
+				margin-right: 10px;
+			}
+			.check{
+				width: 1200px;
+				
+				
+			}
+			.check>ul{
+				position: relative;
+				z-index: 4;
+			}
+			.check>ul>li{
+				border-right:1px solid #e8e8e8;
+				color: #888888;
+				position: relative;
+				
+			}
+			.check>ul>.input{
+				width: 443px;
+				border: solid 2px #ff500b;
+				font-size: 14px;
+				height: 14px;
+				padding: 7px 0px 16px 0px;
+				line-height: 14px;
+				color: #999;
+			}
+			.check>ul>.input:focus{
+				outline: none;
+			}
+			.check>ul>.btn{
+				    display: inline-block;
+				    width: 60px;
+				    height: 27px;
+				    background: #ff500b;
+				    color: #fff;
+				    line-height: 17px;
+				    text-align: center;
+					border: none;
+					position: relative;
+					left: 0px;
+					top: 4.5px;
+			}
+			.check>ul>li>.xiala{
+				transition:  0.5s;
+				display: inline-block;
+			}
+			.check>ul>li:hover>.xiala{
+				transform: rotate(180deg);
+			}
+			.check>ul>li>.xiala1{
+				color: #cccccc;
+				position: absolute;
+				left: 37px;
+				top: 12px;
+				font-size: 12px;
+			}
+			.check>ul>li>.shang{
+				color:#cccccc;
+				position: absolute;
+				left: 37px;
+				top: 4px;
+				font-size: 10px;
+			}
+			.check>ul>li>input{
+				width: 60px;
+				border-radius: 0px;
+				height: 22px;
+				border: solid 1px #e8e8e8;
+				margin: 0px 4px;
+				color: #aaa;
+				text-align: center;
+			}
+			.check>ul>li>.sure{
+				font-size: 14px;
+				color: #FF6600;
+				padding: 0px 3px;
+				margin-left: 7px;
+				line-height: 14px;
+				border: solid 1px #FF6600;
+				position: relative;
+				left: 0px;
+				top: 1px;
+				display: none;
+			}
+			.check>ul>li>input:focus{
+				outline: none;
+				text-align: center;
+			}
+			
+			.check>ul>li:hover{
+				background: white;
+				
+				border-bottom: none;
+			}
+			.check>ul>li:hover>ul{
+				display: block;
+			}
+			.check>ul>li:hover>a{
+				color:#FF6600 ;
+			}
+			.check>ul>li>ul{
+				width: 95px;
+				
+				position: absolute;
+				background: white;
+				list-style: none;
+				text-align: center;
+				top:38px;
+				left: -1px;
+				border: 1px solid #e8e8e8;
+				border-top: none;
+				display: none;
+			}
+			.check>ul>li>ul>li{
+				padding: 7px 24px 7px 0px;
+				height: 40px;
+			}
+			.check>ul>li>ul>li:hover{
+				cursor:pointer;
+				background:#F5F5F5 ;
+				color: #FF6600;
+			}
+			.diqu:hover>.table{
+				display: block;
+			}
+			.table{
+				width: 455px;
+				height: 332px;
+				background: #FFFFFF;
+				border: 1px solid #e8e8e8;
+				border-top: none;
+				position: absolute;
+				top: 38px;
+				left: -1px;
+				display: none;
+				}
+			.table>div{
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-top: 12px;
+			}
+			.table>.a{
+				height: 50px;
+				border-bottom: 1px solid #e8e8e8;
+				
+			}
+			.table>.b{
+				height: 80px;
+				border-bottom: 1px solid #e8e8e8;
+			}		
+			.table li{
+				list-style: none;
+				float: left;
+				width: 80px;
+				height: 30px;
+			}
+			.small{
+				float: left;
+				width: 9px;
+				height: 24px;
+				background: #f5f5f5;
+			}
+			.big{
+				float: left;
+				width: 18px;
+				height: 24px;
+				background: #f5f5f5;
+			}
+			
+			
+			
+			/* 商品部分 */
+			.show{
+				width: 1200px;
+				margin: 0px auto;
+				position: relative;
+				
+			}
+			.show>ul{
+				overflow: hidden;
+			}
+			.show>ul>li{
+				margin-top: 20px;
+				width: 220px;
+				height: 365px;
+				border: 1px solid #efefef;
+				float: left;
+				list-style: none;
+				margin-right: 25px;
+				position: relative;
+			}
+			.show>ul>li:nth-of-type(5n){
+				margin-right: 0px;
+			}
+			.show>ul>li:hover{
+				border: 1px solid #00ABF9;
+			}
+			.show>ul>li:hover>.yincang{
+				display: block;
+			}
+			.show>ul>li>.icon>div{
+				float: left;
+				margin-right:3px ;
+			}
+			.sell{
+				display: block;
+				width: 200px;
+				line-height: 22px;
+				font-size: 22px;
+				font-weight: 400;
+				color: #FF5400;
+			}
+			.img{
+				 width: 218px;
+				 height: 218px;
+				 overflow: hidden;
+			}
+			
+			.img>img:hover{
+				transform: scale(1.2);
+			}
+			.img>img{
+				width: 100%;
+			}
+			.title{
+				font-size: 12px;
+				line-height: 18px;
+				padding: 5px 5px;
+			}
+			.name{
+				font-size: 12px;
+				color: #999999;
+				padding: 5px 5px;
+				border-bottom:1px solid #CCCCCC ;
+			}
+			.icon{
+				padding: 5px 5px;
+			}
+			.show>ul>li>.icon>.icon-wangwang{
+				float: right;
+				margin-right:5px ;
+			}
+			.yincang{
+				width: 218px;
+				height: 145px ;
+				background: white;
+				border: 1px solid #cfcfcf;
+				position: absolute;
+				top: 218px;
+				left: 0px;
+				display: none;
+				
+			}
+			.yincang>.i{
+				height: 65px;
+				width: 220px;
+				border-bottom: 1px solid #cfcfcf;
+				padding: 5px 5px;
+				
+			}
+			.yincang>.j{
+				
+				height: 80px;
+				width: 130px;
+				float: left;
+				padding: 5px 5px;
+			}
+				
+			.yincang>.k{
+				margin-top: 15px;
+				height: 50px;
+				border-left: 1px solid #cfcfcf;
+				width: 86px;
+				float: right;
+				padding: 5px 5px;
+			}
+			.yincang>div>span{
+				font-size: 12px;
+			}
+			.icon-cheng{
+				display:inline-block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-20px ;
+				position: relative;
+				top: 3px;
+				left: 0px;
+			}
+			.icon-cang{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-20px ;
+				background-position-y:-40px ;
+			}
+			.icon-huo{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-100px ;
+				background-position-y:-140px ;
+			}
+			.icon-shangping{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-40px ;
+				background-position-y:-40px ;
+			}
+			.icon-48{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-60px ;
+				background-position-y:-140px ;
+			}
+			.icon-7huan{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-40px ;
+				background-position-y:-180px ;
+			}
+			.icon-she{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-60px ;
+				background-position-y:-120px ;
+			}
+			.icon-ji{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-40px ;
+				background-position-y:-200px ;
+			}
+			.icon-cai{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-40px ;
+				background-position-y:-120px ;
+			}
+			.icon-15huan{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-40px ;
+				background-position-y:-180px ;
+			}
+			.icon-wangwang{
+				display:block;
+				margin: 10px auto 0px;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+				background-position-x:-40px ;
+				background-position-y:-440px ;
+			}
+			
+			/* 底部导航栏 */
+				
+			.footer_nav{
+				margin: 60px auto;
+				width: 1200px;
+				text-align: center;
+				height: 40px;
+			}
+			.footer_nav>a{
+				color: #888;
+				font-size: 14px;
+				height: 40px;
+				line-height: 40px;
+				border: 1px solid #D9D9D9;
+				margin-left: 10px;
+				width: 38px;
+				border-radius: 3px;
+				box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+				text-decoration: none;
+				padding: 9px 14px;
+			}
+			.footer_nav>a:hover{
+				background: #F5F5F5;
+			}
+			
+			.footer_nav>input{
+				color: #888;
+				font-size: 14px;
+				height: 40px;
+				line-height: 40px;
+				border: 1px solid #D9D9D9;
+				margin-left: 10px;
+				width: 38px;
+				border-radius: 3px;
+				box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+				text-decoration: none;
+				padding: 9px 9px;
+			}
+			.footer_nav>input:focus{
+				outline: none;
+			}
+			.footer_nav>button{
+				color: #888;
+				background-color: white;
+				font-size: 14px;
+				height: 40px;
+				line-height: 40px;
+				border: 1px solid #D9D9D9;
+				margin-left: 10px;
+				width: 38px;
+				border-radius: 3px;
+				box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+				text-decoration: none;
+			}
+			.footer_nav>button:hover{
+				background: #F5F5F5;
+			}
+			.footer_nav>button:focus{
+				outline: none;
+			}
+			
+			/* 底部 */
+			footer{
+				width: 100%;
+				min-width: 1210px;
+				background: #333;
+				padding-top: 10px;
+				
+			}
+			footer>div{
+				color: #999;
+				font-size: 12.5px;
+				text-align: center;
+				margin: 0px auto;
+				padding: 11px 0px;
+			}
+			footer>div>a{
+				text-decoration: none;
+				font-size: 12.5px;
+				color: #999;
+			}

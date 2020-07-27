@@ -1,0 +1,68 @@
+			.icon{
+				display:inline-block;
+				height: 16px;
+				width: 16px;
+				background-image: url(../img/10_04.png);
+				background-repeat: none;
+			}
+			.icon-cheng{
+				background-position-x:-20px ;
+			}
+			.icon-huo{
+				background-position-x:-100px ;
+				background-position-y:-140px ;
+			}
+			.icon-shangping{
+				background-position-x:-40px ;
+				background-position-y:-40px ;
+			}
+			.icon-48{
+				background-position-x:-60px ;
+				background-position-y:-140px ;
+			}
+			.icon-7huan{
+				background-position-x:-40px ;
+				background-position-y:-180px ;
+			}
+			.icon-she{
+				background-position-x:-60px ;
+				background-position-y:-120px ;
+			}
+			.icon-ji{
+				background-position-x:-40px ;
+				background-position-y:-200px ;
+			}
+			.icon-cai{
+				background-position-x:-40px ;
+				background-position-y:-120px ;
+			}
+			.icon-15huan{
+				background-position-x:-40px ;
+				background-position-y:-180px ;
+			}
+			.icon-wangwang{
+				background-position-x:-40px ;
+				background-position-y:-440px ;
+			}
+			.icon-zhi{
+				background-position-x:0px ;
+				background-position-y:-120px ;
+			}
+			.icon-fa{
+				background-position-x:0px ;
+				background-position-y:-140px ;
+			}
+			.icon-huan{
+				background-position-x:0px ;
+				background-position-y:-180px ;
+			}
+			.icon-bao{
+				background-position-x:-20px ;
+				background-position-y:-60px ;
+			}
+			.icon-A{	
+				background-position-y:-280px ;
+			}
+			.icon-zuanshi{
+				background-position-y:-340px ;
+			}
